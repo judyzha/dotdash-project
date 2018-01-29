@@ -1,1 +1,32 @@
 //please add your test cases here.
+API Test Cases:
+
+1. Check whether the task list could be listed ascending or descending order by creation date, due date, or sequence number?
+
+2. Check if user can creat task without any category.
+
+3. Count how many categories the system has.
+
+4. Check how many colors the system can create and list.
+
+5. Curl the service endpoint to check the response.
+
+6. Get the service endpoint to check the response.  
+
+7. Get the list of tasks with specific category.
+
+8. Add some tasks with invalid name or invalid category and validate response.
+
+9. Uncheck all tasks and press Remove or Complete button to check what system will happen.
+
+10. Remove any specific category while no any task assigned to this category.
+
+11. Remove any specific category while there is still some tasks assigned to this category.
+
+12. List all available categories.
+
+13. List all due date list.
+
+14. List all colors.
+
+15. Press Remove or complete button while there is no any task available and check response. 
