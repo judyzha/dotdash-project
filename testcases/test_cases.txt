@@ -1,1 +1,43 @@
 //please add your test cases here.
+//function test cases:
+ 1  check date and time and see if app shows the correct date and time with the corresponding time zone 
+
+ 2  add button test cases
+ 2.1         click add button without entering text(nothing should be changed
+ 2.2  enter valid text and click add button(the text should be added to the task list in black and then shows ”(None)”  for date part)
+ 2.3  enter as many as possible text and click add button(count the limit of text and put the limit in our test report, the whole text should be added to the task list in black and then shows ”(None)”  for date part)
+ 2.4  enter  text and choose valid category without choosing date and click add button(the text should be added to the task list; the task text should be the category color and then shows ”(None)” for date part)
+ 2.5  enter  text and choose valid category then choose future date and click add button(the text should be added to the task list; the task text should be the category color and then shows date in black)
+ 2.6  enter  text and choose valid category then choose past date and click add button (check if the text should be added to the task list; the task text and date should be red; the category should be in category color; check if task,category and date shows correctly)
+ 2.7  enter weird text (e.g. “%$^”) and repeat the test 2.1,2.2,2.3,2.4,2.5 and 2.6
+ 3   add category button test cases:
+ 3.1  enter valid text without choosing color and click “add category”  button(check if it shows correctly at the right of category in black font)
+ 3.2  enter valid text and choose each color in the color box without choosing color and click “add category”  button(check if it shows correctly at the right of category with the chosen color)
+ 3.3  weird text (e.g. “%$^”) and repeat the test 
+ 4  remove category test cases
+ 4.1  choose a category and click it(app should show the correct category name in the confirm page)
+ 4.2  choose a category and click it, then click “Nevermind” in confirm page(the category should be still there)
+ 4.3  choose a category and click it, then click “Yes” in confirm page(the category should be removed form category part)
+ 5  Toggle all test cases
+ 5.1  check “Toggle all“ box and see if all the check box are checked
+ 5.2  uncheck “Toggle all” box and see if all the check box are unchecked
+
+ 6  complete button test cases:
+ 6.1  check one uncompleted task and click “complete” button(task text should be crossed out and font color should be the category color)
+ 6.2  check 2 and more uncompleted tasks and repeat test3.1.
+ 6.3  Check all the uncompleted tasks and repeat test3.1
+ 6.4  check one completed task and click “complete” button:task text should go back to normal(not cross out) if the task is  Overdue, task text should be in red else(not overdue) task text should be in category color( This test should be repeated for the task in each category)
+ 6.5  check 2 and more completed tasks and repeat test3.4.
+ 6.6  Check all the uncompleted tasks and repeat test 3.4
+ 6.7  check Toggle all box and click Complete (the original completed task text should go back to normal(not cross out) if the task is  Overdue, task text should be in red else(not overdue) task text should be in category color; the original uncompleted task  text should be crossed out and font color should be the category color)
+ 7  remove button test cases:
+ 7.1  check one completed task and click remove(the chosen task should disappear from the task list)
+ 7.2  check one uncompleted task and click remove(the chosen task should disappear from the task list)
+ 7.3  check two – seven tasks and click remove
+ 7.4  uncheck all tasks and click remove
+ 7.5  toggle all tasks and click remove(This one should be tested as the last test case)
+(Note: should app shows a confirm box before remove the task?)
+ 8  index test cases
+ 8.1  add new task and check the index and see if it is correct(should meet the requirement
+ 8.2  remove the smallest index task and see if it works correctly
+ 8.3  remove the largest index task and see if it works correctly
