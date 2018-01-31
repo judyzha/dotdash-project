@@ -1,5 +1,3 @@
-//please add your test cases here.
-//function test cases:
  1  check date and time and see if app shows the correct date and time with the corresponding time zone 
 
  2  add button test cases
